@@ -8,3 +8,24 @@ func money(_ amount: Int) -> String {
     }
     return String(result.reversed()) + " VND"
 }
+
+func printHeader(_ title: String) {
+    print("\n=============================================")
+    print("  \(title)")
+    print("=============================================")
+}
+
+func getInput(_ prompt: String) -> String {
+    print(prompt, terminator: "")
+    return readLine()?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+}
+
+func getIntInput(_ prompt: String) -> Int? {
+    return Int(getInput(prompt))
+}
+
+func getDateInput(_ prompt: String) -> Date? {
+    let f = DateFormatter()
+    f.dateFormat = "dd/MM/yyyy"
+    return f.date(from: getInput(prompt))
+}
