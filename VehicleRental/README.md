@@ -1,6 +1,6 @@
 # Vehicle Rental Management System
 
-Hello Ms. Phượng, my name is Võ Châu Anh. Below is screenshots of outputs examining some features of how is this practice Vehicle Rental Management System working.
+Hello Ms. Phượng, my name is Võ Châu Anh. Below is screenshots from outputs examining some features of how is this practice Vehicle Rental Management System working.
 
 ---
 
